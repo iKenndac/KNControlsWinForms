@@ -196,6 +196,7 @@ Public Class KNTableView
             ' Now draw row cells
 
             If (currentRow < actualRowCount) Then
+
                 For Each col As KNTableColumn In _columns
 
                     columnRect = New Rectangle(columnStartX, rowRect.Y, col.Width, rowRect.Height)
